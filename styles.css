@@ -1,0 +1,59 @@
+body{
+    background:whitesmoke;
+}
+h1{
+    background:white;
+    width: 750px;
+    margin:auto;
+}
+.posts{
+    /* background: white; */
+    width: 750px;
+    margin:auto;
+}
+.posts img{
+    width: 100%;
+}
+.posts p, .posts h2{
+    padding:10px;
+}
+
+.post span {
+    /* display: inline-block; */
+    /* background:pink; */
+    /* float: right; */
+    margin-left: 600px;
+    margin-top: 20px;
+    margin-right: 10px;
+    position: relative;
+    Bottom: 41px;
+}
+.post {
+    margin-top: 1rem;
+    background-color: white;
+}
+
+.post_header{
+    border: none;
+    border-bottom: 1px solid red;
+    display: flex;
+}
+.grid > div > img {
+    height: 350px;
+    width: 350px;
+    margin: none;
+}
+.grid{
+    margin: 1rem;
+    display: flex;
+}
+#nav-tab{
+    display: flex;
+  align-items: center;
+  justify-content: center
+ }
+ .navbar-brand{
+    margin-right: 1560px;
+}
+.nav-link dropdown-toggle{
+    margin-right: 50px;}
