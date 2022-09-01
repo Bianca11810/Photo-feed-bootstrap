@@ -19,7 +19,24 @@
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">Instagram</a>
-              <button class="btn btn-success">Create a new post</button>
+              <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#newpost">Create a new post</button>
+              <div id="newpost" class="modal" tabindex="-1">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Create a New Post</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Add caption here</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Publish</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                   <li class="nav-item dropdown">
